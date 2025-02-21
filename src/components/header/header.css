@@ -1,0 +1,19 @@
+.header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #c4c4c5;
+    color: black;
+    padding: 5px;
+    padding-left: 20px;
+    z-index: 999;
+    align-items: center;
+    gap: 20px;
+}
+.header .menu{
+    width: 30px;
+    height: 25px;
+}

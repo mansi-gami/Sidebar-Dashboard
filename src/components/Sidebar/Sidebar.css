@@ -1,0 +1,56 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 290px;
+    width: 100%;
+    height: 100vh;
+    background-color: #d9dadb;
+    display: flex;
+    flex-direction: row;
+    padding-top: 110px;
+    z-index: 990;
+    transition: all 0.3s ease-in-out;
+}
+.sidebar.open{
+    transform: translateX(-290px);
+}
+.sidebarList{
+    padding: 0;
+    height: auto;
+    width: 100%;
+}
+.sidebarList .row{
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: bl;
+    justify-content: center;
+    align-items: center;
+}
+.sidebarList .row:hover{
+    cursor: pointer;
+    background-color: #293846;
+    color: white;
+}
+.row #icon{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+.row #title{
+    flex: 70%;
+}
+.btn-logout{
+    background-color: black;
+    height: 40px;
+    width: 120px;
+    margin-left: 35px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,8 @@
+.main-layout{
+    padding-left: 300px;
+    padding-top: 110px;
+    transition: all 0.3s ease-in-out;
+}
+.main-layout.open{
+    padding-left: 10px;
+}
